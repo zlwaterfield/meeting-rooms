@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.otppmeetingrooms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.javacodegeeks.android.androidtimerexample.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Maps"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.DirectoryListActivity"
+            android:label="@string/title_directory_list" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.DirectoryDetailActivity"
+            android:label="@string/title_directory_detail"
+            android:parentActivityName=".DirectoryListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DirectoryListActivity" />
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.FloorPlan"
+            android:label="@string/title_activity_floor_plan" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.BookRoom"
+            android:label="@string/title_activity_book_room" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Secondfloor"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_secondfloor"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Thirdfloor"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_thirdfloor"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.FourthFloor"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fourth_floor"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Successful"
+            android:label="@string/title_activity_successful" >
+        </activity>
+        <activity android:name="com.example.otppmeetingrooms.NewUserActivity" >
+        </activity>
+        <activity android:name="com.example.otppmeetingrooms.UserLoggedInPage" >
+        </activity>
+        <activity android:name="com.example.otppmeetingrooms.AdminPage" >
+        </activity>
+        <activity android:name="com.example.otppmeetingrooms.DatabaseActivity" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.MainActivity2"
+            android:label="@string/title_activity_main_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Second"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Third"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Fourth"
+            android:label="@string/title_activity_fourth" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Fifth"
+            android:label="@string/title_activity_fifth" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Sixth"
+            android:label="@string/title_activity_sixth" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Seventh"
+            android:label="@string/title_activity_seventh" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Eighth"
+            android:label="@string/title_activity_eighth" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Twelfth"
+            android:label="@string/title_activity_twelfth" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Fifteenth"
+            android:label="@string/title_activity_fifteenth" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Sixteenth"
+            android:label="@string/title_activity_sixteenth" >
+        </activity>
+        <activity
+            android:name="com.example.otppmeetingrooms.Eighteenth"
+            android:label="@string/title_activity_eighteenth" >
+        </activity>
+    </application>
+
+</manifest>

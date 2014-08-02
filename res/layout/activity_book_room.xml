@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <!-- Put form controls here -->
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bookaroom"
+            android:textSize="7pt" >
+        </TextView>
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Click here to choose meeting room"
+	        android:layout_margin="20dip"
+	        android:layout_gravity="center"
+	        android:textColor="#F0B310"
+	        android:id="@+id/anchor"/>
+        
+            <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="20dip"
+	        android:layout_gravity="center"
+	        android:textSize="40sp"
+	        android:textColor="#808080"
+	        android:id="@+id/selection"/>
+
+            <EditText
+                android:id="@+id/EditTextName"
+                android:layout_width="fill_parent"
+                android:layout_height="40px"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#C0C0C0"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="fill_parent"
+            android:layout_height="40px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#C0C0C0"
+            android:hint="@string/time"
+            android:inputType="time" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="40px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#C0C0C0"
+            android:hint="@string/date"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="fill_parent"
+            android:layout_height="40px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#C0C0C0"
+            android:hint="@string/room" />
+
+        <EditText
+            android:id="@+id/EditTextFeedbackBody"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#C0C0C0"
+            android:hint="@string/detail"
+            android:inputType="textMultiLine"
+            android:lines="7" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#F0B310"
+            android:text="Submit" />
+        
+    </LinearLayout>
+
+</ScrollView>
+
